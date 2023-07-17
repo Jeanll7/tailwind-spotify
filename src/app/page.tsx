@@ -1,5 +1,7 @@
 import { Home as HomeIcon, Search, Library, ChevronLeft, ChevronRight } from 'lucide-react'
 
+import Image from 'next/image';
+
 export default function Home() {
   return (
     <div className="h-screen flex flex-col">
@@ -45,13 +47,25 @@ export default function Home() {
 
           <h1 className='font-semibold text-3xl mt-10'>Good Afternoon</h1>
 
-          <div className='grid grid-cols-3 gap-6'>
-            <div className='bg-white/10'>Playlist</div>
-            <div className='bg-white/10'>Playlist</div>
-            <div className='bg-white/10'>Playlist</div>
-            <div className='bg-white/10'>Playlist</div>
-            <div className='bg-white/10'>Playlist</div>
-            <div className='bg-white/10'>Playlist</div>
+          <div className='grid grid-cols-3 gap-4 mt-4'>
+            <div className='bg-white/10 rounded overflow-hidden'>
+              <Image src="/album.jpg" width={120} height={120} alt="album Foo Fighters" />
+            </div>
+            <div className='bg-white/10 rounded overflow-hidden'>
+              <Image src="/album.jpg" width={120} height={120} alt="album Foo Fighters" />
+            </div>
+            <div className='bg-white/10 rounded overflow-hidden'>
+              <Image src="/album.jpg" width={120} height={120} alt="album Foo Fighters" />
+            </div>
+            <div className='bg-white/10 rounded overflow-hidden'>
+              <Image src="/album.jpg" width={120} height={120} alt="album Foo Fighters" />
+            </div>
+            <div className='bg-white/10 rounded overflow-hidden'>
+              <Image src="/album.jpg" width={120} height={120} alt="album Foo Fighters" />
+            </div>
+            <div className='bg-white/10 rounded overflow-hidden'>
+              <Image src="/album.jpg" width={120} height={120} alt="album Foo Fighters" />
+            </div>
           </div>
         </main>
       </div>
