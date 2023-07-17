@@ -14,20 +14,19 @@ export default function Home() {
           </div>
 
           <nav className='space-y-5 mt-8'>
-            <a href="" className='flex items-center gap-3 text-sm font-semibold text-zinc-200'>
+            <a href="" className='flex items-center gap-3 text-sm font-semibold text-zinc-300 hover:text-white'>
               <HomeIcon className='w-5' />
               Home
             </a>
-            <a href="" className='flex items-center gap-3 text-sm font-semibold text-zinc-200'>
+            <a href="" className='flex items-center gap-3 text-sm font-semibold text-zinc-300 hover:text-white'>
               <Search className='w-5' />
               Search
             </a>
-            <a href="" className='flex items-center gap-3 text-sm font-semibold text-zinc-200'>
+            <a href="" className='flex items-center gap-3 text-sm font-semibold text-zinc-300 hover:text-white'>
               <Library className='w-5' />
               Your Library
             </a>
           </nav>
-
           <nav className='mt-6 pt-6 border-t border-zinc-800 flex flex-col gap-3'>
             <a className='text-sm text-zinc-400 hover:text-zinc-100' href="">Hot Hits Brasil</a>
             <a className='text-sm text-zinc-400 hover:text-zinc-100' href="">Aniver Funk</a>
@@ -37,11 +36,11 @@ export default function Home() {
         </aside>
         <main className="flex-1 p-6">
           <div className='flex items-center gap-4'>
-            <button className='rounded-full bg-black/40 p-1'>
-              <ChevronLeft />
+            <button className='rounded-full bg-black/40 p-2'>
+              <ChevronLeft width={30} height={30} />
             </button>
-            <button className='rounded-full bg-black/40 p-1'>
-              <ChevronRight />
+            <button className='rounded-full bg-black/40 p-2'>
+              <ChevronRight width={30} height={30} />
             </button>
           </div>
 
